@@ -1,12 +1,15 @@
 import pygame
 import random
+import os
 pygame.init()
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 pygame.display.set_caption("game tir")
-icon = pygame.image.load("img/Cosmic_Wars")
+
+icon = pygame.image.load("img/klipartz.com(2).png")
+
 pygame.display.set_icon(icon)
 
 target_img = pygame.image.load("img/target.png")
