@@ -8,11 +8,11 @@ SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 pygame.display.set_caption("game tir")
 
-icon = pygame.image.load("img/klipartz.com(2).png")
+icon = pygame.image.load("1024452-star-wars-bientot-un-jeu-the-mandalorian-developpe-par-respawn-entertainment.jpg")
 
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/terget.png")
+target_img = pygame.image.load("1024452-star-wars-bientot-un-jeu-the-mandalorian-developpe-par-respawn-entertainment.jpg")
 target_width = 80
 target_height = 80
 
