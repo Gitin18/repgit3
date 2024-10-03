@@ -12,7 +12,7 @@ icon = pygame.image.load("img/klipartz.com(2).png")
 
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/target.png")
+target_img = pygame.image.load("img/terget.png")
 target_width = 80
 target_height = 80
 
