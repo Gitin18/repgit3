@@ -7,8 +7,9 @@ SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 pygame.display.set_caption("game tir")
+icon = pygame.image.load("boez.jpg")
 
-icon = pygame.image.load("apfel.png")
+icon = pygame.image.load("img/apfel.png")
 
 target_width = 80
 target_height = 80
