@@ -13,7 +13,7 @@ pygame.display.set_caption("Game Tir")
 icon = pygame.image.load("boez.jpg")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/apfel.png")
+target_img = pygame.image.load("img/klipartz.com (3).png")
 target_width = 80
 target_height = 80
 
